@@ -11,7 +11,7 @@ export const ScrollToTopButton = () => {
 
     return <>
         <button id="scrollToTopBtn" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            &#8679;
+            {/*&#8679;*/}
         </button>
     </>
 }

@@ -134,7 +134,6 @@ export const PokemonProvider = ({ children }) => {
 				globalPokemons,
 				getPokemonByID,
 				onClickLoadMore,
-				// Loader
 				loading,
 				setLoading,
 				handleCheckbox,

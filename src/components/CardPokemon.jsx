@@ -12,7 +12,6 @@ export const CardPokemon = ({ pokemon }) => {
 				/>
 			</div>
 			<div className='card-info'>
-				{/*<span className='pokemon-id'>N° {pokemon.id}</span>*/}
 				<h3>{firstUppercaseLetter(pokemon.name)}</h3>
 				<div className='card-types'>
 					{pokemon.types.map(type => (
