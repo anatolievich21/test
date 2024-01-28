@@ -1,5 +1,5 @@
 import {PokemonList, LoadMoreButton, ScrollToTopButton} from "../components/index.js";
-import {PokemonPage} from "../pages/index.js";
+import {Outlet} from "react-router-dom";
 
 export const CatalogLayout = () => {
     return <div className='container-content'>
@@ -8,7 +8,7 @@ export const CatalogLayout = () => {
             <LoadMoreButton />
         </div>
         <div className='right-section'>
-            <PokemonPage />
+            <Outlet />
         </div>
         <ScrollToTopButton />
     </div>
